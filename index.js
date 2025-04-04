@@ -27,7 +27,7 @@ connectDB();
 
 app.use(
   cors({
-    origin: "https://projectmanagement-frontend-ttta.vercel.app/",
+    origin: "https://projectmanagement-frontend-ttta.vercel.app",
     // "http://localhost:3000",
     credentials: true,
   })
